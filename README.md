@@ -23,7 +23,7 @@ The goal is to monitor the CPU usage of a target EC2 instance and trigger alerts
 ---
 
 4. Install Grafana & Add Prometheus as Data Source
-[![Grafana](./images/grafana.png)]
+[![Grafana visual](./images/grafana.png)]
 
 # **Summary**
 This project sets up a complete monitoring and alerting stack on AWS using Prometheus, Node Exporter, Grafana, and Alertmanager. Prometheus collects metrics from a target EC2 instance , while Grafana visualizes the data through dashboards. Alertmanager is fully integrated to trigger notifications based on defined alert rules, such as detecting high CPU usage. This setup demonstrates real-world DevOps monitoring practices, including metric scraping, alerting, visualization, and infrastructure observability across multiple EC2 instances.
